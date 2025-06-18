@@ -82,7 +82,7 @@ const focusDropdownTrigger = () => {
 const blurDropdownTrigger = () => {
     (dropdownTrigger.value as any)._tippy.hide();
 };
-
+ 
 onMounted(() => {
     window.addEventListener(
         'click',
